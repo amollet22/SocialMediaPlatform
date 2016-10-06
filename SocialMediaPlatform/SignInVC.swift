@@ -10,6 +10,7 @@ import UIKit
 import FBSDKLoginKit
 import FBSDKCoreKit
 import Firebase
+import SwiftKeychainWrapper
 
 class SignInVC: UIViewController {
     
@@ -20,14 +21,20 @@ class SignInVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        }
+    
+    //CODE TO AUTO LOGIN WITH KEYCHAINWRAPPER
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+        if let _ = KeychainWrapper.standard.string(forKey: KEY_UID) {
+            print("ID found in keychain")
+            performSegue(withIdentifier: "goToFeed", sender: nil)
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
+    
+    
     //CODE FOR FACEBOOK LOGIN BUTTON -- CONNECTED DIRECTLY TO FACEBOOK BUTTON
     
     @IBAction func facebookBtnTapped(_ sender: AnyObject) {
@@ -58,7 +65,14 @@ class SignInVC: UIViewController {
                 print("Unable to authenticate with Firebase")
             } else {
                 print("Successfully authenticated with Firebase")
+                
+    //CODE FOR ADDING KEYCHAIN FEATURE FOR AUTO LOGIN -- MUST ADD KEYCHAINWRAPPER POD
+                
+                if let user = user {
+                self.completeSignIn(id: user.uid)
+                }
             }
+                
             
         })
     }
@@ -71,21 +85,55 @@ class SignInVC: UIViewController {
             FIRAuth.auth()?.signIn(withEmail: email, password: pwd, completion: { (user, error) in
                 if error == nil {
                     print("Emial user authenticated with Firebase")
+                    
+    //CODE FOR ADDING KEYCHAIN FEATURE FOR AUTO LOGIN -- MUST ADD KEYCHAINWRAPPER POD
+                    if let user = user {
+                        self.completeSignIn(id: user.uid)
+                    }
+                    
+    //----------------------------------------------------------------------------------
+                    
                 } else {
                     FIRAuth.auth()?.createUser(withEmail: email, password: pwd, completion: { (user, error) in
                         if error == nil {
                             print("Unable to authenticate with Firebase Email")
                         } else {
                             print("Succesfully authenticated with Firesbase")
+                            
+    //CODE FOR ADDING KEYCHAIN FEATURE FOR AUTO LOGIN -- MUST ADD KEYCHAINWRAPPER POD
+                            if let user = user {
+                                self.completeSignIn(id: user.uid)
+                            }
+                            
+    //-----------------------------------------------------------------------------------
+
                         }
                     })
                 }
             })
         }
         
-        
-        
+    }
+    
+    //FUNC FOR ADDING KEYCHAIN FEATURE FOR AUTO LOGIN -- MUST ADD KEYCHAINWRAPPER POD
+    
+    func completeSignIn(id: String) {
+        KeychainWrapper.standard.set(id, forKey: KEY_UID)
+        print("Data saved to keychain")
+        performSegue(withIdentifier: "goToFeed", sender: nil)
         
     }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
 
