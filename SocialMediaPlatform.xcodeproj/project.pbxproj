@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		41BE751BA537AFE3722BBC05 /* Pods_SocialMediaPlatformUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3557ED557A5350901B5843DF /* Pods_SocialMediaPlatformUITests.framework */; };
+		2C244BBDFB82F906130F5944 /* Pods_SocialMediaPlatformUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2F677C699FFC22A15FB2C8 /* Pods_SocialMediaPlatformUITests.framework */; };
 		4AF2943D1DA47AB200A6D3D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2943C1DA47AB200A6D3D5 /* AppDelegate.swift */; };
 		4AF2943F1DA47AB200A6D3D5 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2943E1DA47AB200A6D3D5 /* SignInVC.swift */; };
 		4AF294421DA47AB200A6D3D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF294401DA47AB200A6D3D5 /* Main.storyboard */; };
@@ -20,8 +20,8 @@
 		4AF294731DA5873700A6D3D5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF294721DA5873700A6D3D5 /* Constants.swift */; };
 		4AF294751DA5910600A6D3D5 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF294741DA5910600A6D3D5 /* RoundButton.swift */; };
 		4AF294771DA5929100A6D3D5 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF294761DA5929100A6D3D5 /* FancyField.swift */; };
-		65F7A87B94F1518B675D407C /* Pods_SocialMediaPlatformTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA4F254DAF3B687F9E367E8 /* Pods_SocialMediaPlatformTests.framework */; };
-		F9F1DEAB78CC61CC60E6F6DB /* Pods_SocialMediaPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFC1EFDBBD513B28B7A3371 /* Pods_SocialMediaPlatform.framework */; };
+		9CE8688CDC45E83EFE5FBCB9 /* Pods_SocialMediaPlatformTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233EFD7C27BC47684826C72C /* Pods_SocialMediaPlatformTests.framework */; };
+		CB2933C138047F183E65B031 /* Pods_SocialMediaPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A571FEBE106836D98E94C66F /* Pods_SocialMediaPlatform.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1AA4F254DAF3B687F9E367E8 /* Pods_SocialMediaPlatformTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMediaPlatformTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B2F677C699FFC22A15FB2C8 /* Pods_SocialMediaPlatformUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMediaPlatformUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		233EFD7C27BC47684826C72C /* Pods_SocialMediaPlatformTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMediaPlatformTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2352D445CD0638A84AC50329 /* Pods-SocialMediaPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaPlatform.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialMediaPlatform/Pods-SocialMediaPlatform.debug.xcconfig"; sourceTree = "<group>"; };
-		3557ED557A5350901B5843DF /* Pods_SocialMediaPlatformUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMediaPlatformUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF294391DA47AB200A6D3D5 /* SocialMediaPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMediaPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF2943C1DA47AB200A6D3D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AF2943E1DA47AB200A6D3D5 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -63,9 +63,10 @@
 		4AF294721DA5873700A6D3D5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4AF294741DA5910600A6D3D5 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		4AF294761DA5929100A6D3D5 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
-		4FFC1EFDBBD513B28B7A3371 /* Pods_SocialMediaPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMediaPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF2947A1DA5CB1900A6D3D5 /* SocialMediaPlatform.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialMediaPlatform.entitlements; sourceTree = "<group>"; };
 		504D8920DAC08ACDF0CD4FC6 /* Pods-SocialMediaPlatformTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaPlatformTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialMediaPlatformTests/Pods-SocialMediaPlatformTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5977CF2976475DD798845CF4 /* Pods-SocialMediaPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaPlatform.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialMediaPlatform/Pods-SocialMediaPlatform.release.xcconfig"; sourceTree = "<group>"; };
+		A571FEBE106836D98E94C66F /* Pods_SocialMediaPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMediaPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECF4DF98BD81FE7BEBAB1AA /* Pods-SocialMediaPlatformTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaPlatformTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialMediaPlatformTests/Pods-SocialMediaPlatformTests.release.xcconfig"; sourceTree = "<group>"; };
 		E9490B5C411D1E1DF9D6FEEC /* Pods-SocialMediaPlatformUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaPlatformUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialMediaPlatformUITests/Pods-SocialMediaPlatformUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F605B2F8473BD34334F80BD6 /* Pods-SocialMediaPlatformUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaPlatformUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialMediaPlatformUITests/Pods-SocialMediaPlatformUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9F1DEAB78CC61CC60E6F6DB /* Pods_SocialMediaPlatform.framework in Frameworks */,
+				CB2933C138047F183E65B031 /* Pods_SocialMediaPlatform.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65F7A87B94F1518B675D407C /* Pods_SocialMediaPlatformTests.framework in Frameworks */,
+				9CE8688CDC45E83EFE5FBCB9 /* Pods_SocialMediaPlatformTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41BE751BA537AFE3722BBC05 /* Pods_SocialMediaPlatformUITests.framework in Frameworks */,
+				2C244BBDFB82F906130F5944 /* Pods_SocialMediaPlatformUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,9 +103,9 @@
 		455E7B5B344F5D7AFA291BC9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4FFC1EFDBBD513B28B7A3371 /* Pods_SocialMediaPlatform.framework */,
-				1AA4F254DAF3B687F9E367E8 /* Pods_SocialMediaPlatformTests.framework */,
-				3557ED557A5350901B5843DF /* Pods_SocialMediaPlatformUITests.framework */,
+				A571FEBE106836D98E94C66F /* Pods_SocialMediaPlatform.framework */,
+				233EFD7C27BC47684826C72C /* Pods_SocialMediaPlatformTests.framework */,
+				1B2F677C699FFC22A15FB2C8 /* Pods_SocialMediaPlatformUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,6 +135,7 @@
 		4AF2943B1DA47AB200A6D3D5 /* SocialMediaPlatform */ = {
 			isa = PBXGroup;
 			children = (
+				4AF2947A1DA5CB1900A6D3D5 /* SocialMediaPlatform.entitlements */,
 				4AF294711DA5871800A6D3D5 /* Utilities */,
 				4AF2946E1DA47E6A00A6D3D5 /* Controller */,
 				4AF2946D1DA47E6400A6D3D5 /* View */,
@@ -290,6 +292,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = E58YP27X57;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					4AF2944C1DA47AB200A6D3D5 = {
 						CreatedOnToolsVersion = 8.0;
@@ -639,7 +646,12 @@
 			baseConfigurationReference = 2352D445CD0638A84AC50329 /* Pods-SocialMediaPlatform.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SocialMediaPlatform/SocialMediaPlatform.entitlements;
 				DEVELOPMENT_TEAM = E58YP27X57;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SocialMediaPlatform/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AM.SocialMediaPlatform;
@@ -653,7 +665,12 @@
 			baseConfigurationReference = 5977CF2976475DD798845CF4 /* Pods-SocialMediaPlatform.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SocialMediaPlatform/SocialMediaPlatform.entitlements;
 				DEVELOPMENT_TEAM = E58YP27X57;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SocialMediaPlatform/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AM.SocialMediaPlatform;
