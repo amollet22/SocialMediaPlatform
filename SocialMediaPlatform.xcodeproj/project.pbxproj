@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2C244BBDFB82F906130F5944 /* Pods_SocialMediaPlatformUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2F677C699FFC22A15FB2C8 /* Pods_SocialMediaPlatformUITests.framework */; };
+		4A2595AF1DAD70AC00211735 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2595AE1DAD70AC00211735 /* PostCell.swift */; };
+		4A2595F11DB1544B00211735 /* DropDown.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2595F01DB1544B00211735 /* DropDown.xib */; };
+		4A2595F31DB154DD00211735 /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2595F21DB154DD00211735 /* DropDownView.swift */; };
+		4AA394F01DB1BFFF0020CE97 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA394EF1DB1BFFF0020CE97 /* ShadowView.swift */; };
 		4AF2943D1DA47AB200A6D3D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2943C1DA47AB200A6D3D5 /* AppDelegate.swift */; };
 		4AF2943F1DA47AB200A6D3D5 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2943E1DA47AB200A6D3D5 /* SignInVC.swift */; };
 		4AF294421DA47AB200A6D3D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF294401DA47AB200A6D3D5 /* Main.storyboard */; };
@@ -21,6 +25,10 @@
 		4AF294751DA5910600A6D3D5 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF294741DA5910600A6D3D5 /* RoundButton.swift */; };
 		4AF294771DA5929100A6D3D5 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF294761DA5929100A6D3D5 /* FancyField.swift */; };
 		4AF2947C1DA6D61A00A6D3D5 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2947B1DA6D61A00A6D3D5 /* FeedVC.swift */; };
+		4AF2947E1DA705AE00A6D3D5 /* FancyViewRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2947D1DA705AE00A6D3D5 /* FancyViewRound.swift */; };
+		4AF294801DA812ED00A6D3D5 /* FancyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2947F1DA812ED00A6D3D5 /* FancyTextView.swift */; };
+		4AF294821DA8169400A6D3D5 /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF294811DA8169400A6D3D5 /* PostVC.swift */; };
+		4AF294841DAAEB7700A6D3D5 /* FancyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF294831DAAEB7700A6D3D5 /* FancyImage.swift */; };
 		9CE8688CDC45E83EFE5FBCB9 /* Pods_SocialMediaPlatformTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233EFD7C27BC47684826C72C /* Pods_SocialMediaPlatformTests.framework */; };
 		CB2933C138047F183E65B031 /* Pods_SocialMediaPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A571FEBE106836D98E94C66F /* Pods_SocialMediaPlatform.framework */; };
 /* End PBXBuildFile section */
@@ -46,7 +54,11 @@
 		1B2F677C699FFC22A15FB2C8 /* Pods_SocialMediaPlatformUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMediaPlatformUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		233EFD7C27BC47684826C72C /* Pods_SocialMediaPlatformTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMediaPlatformTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2352D445CD0638A84AC50329 /* Pods-SocialMediaPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaPlatform.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialMediaPlatform/Pods-SocialMediaPlatform.debug.xcconfig"; sourceTree = "<group>"; };
-		4AF294391DA47AB200A6D3D5 /* SocialMediaPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMediaPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2595AE1DAD70AC00211735 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		4A2595F01DB1544B00211735 /* DropDown.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDown.xib; sourceTree = "<group>"; };
+		4A2595F21DB154DD00211735 /* DropDownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
+		4AA394EF1DB1BFFF0020CE97 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		4AF294391DA47AB200A6D3D5 /* SoPho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoPho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF2943C1DA47AB200A6D3D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AF2943E1DA47AB200A6D3D5 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		4AF294411DA47AB200A6D3D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +78,10 @@
 		4AF294761DA5929100A6D3D5 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		4AF2947A1DA5CB1900A6D3D5 /* SocialMediaPlatform.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialMediaPlatform.entitlements; sourceTree = "<group>"; };
 		4AF2947B1DA6D61A00A6D3D5 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		4AF2947D1DA705AE00A6D3D5 /* FancyViewRound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyViewRound.swift; sourceTree = "<group>"; };
+		4AF2947F1DA812ED00A6D3D5 /* FancyTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyTextView.swift; sourceTree = "<group>"; };
+		4AF294811DA8169400A6D3D5 /* PostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
+		4AF294831DAAEB7700A6D3D5 /* FancyImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyImage.swift; sourceTree = "<group>"; };
 		504D8920DAC08ACDF0CD4FC6 /* Pods-SocialMediaPlatformTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaPlatformTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialMediaPlatformTests/Pods-SocialMediaPlatformTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5977CF2976475DD798845CF4 /* Pods-SocialMediaPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaPlatform.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialMediaPlatform/Pods-SocialMediaPlatform.release.xcconfig"; sourceTree = "<group>"; };
 		A571FEBE106836D98E94C66F /* Pods_SocialMediaPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMediaPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,7 +143,7 @@
 		4AF2943A1DA47AB200A6D3D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4AF294391DA47AB200A6D3D5 /* SocialMediaPlatform.app */,
+				4AF294391DA47AB200A6D3D5 /* SoPho.app */,
 				4AF2944D1DA47AB200A6D3D5 /* SocialMediaPlatformTests.xctest */,
 				4AF294581DA47AB300A6D3D5 /* SocialMediaPlatformUITests.xctest */,
 			);
@@ -146,6 +162,7 @@
 				4AF294401DA47AB200A6D3D5 /* Main.storyboard */,
 				4AF294431DA47AB200A6D3D5 /* Assets.xcassets */,
 				4AF294451DA47AB200A6D3D5 /* LaunchScreen.storyboard */,
+				4A2595F01DB1544B00211735 /* DropDown.xib */,
 				4AF294481DA47AB200A6D3D5 /* Info.plist */,
 				4AF2946A1DA47AE300A6D3D5 /* GoogleService-Info.plist */,
 			);
@@ -180,9 +197,15 @@
 		4AF2946D1DA47E6400A6D3D5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4A2595F21DB154DD00211735 /* DropDownView.swift */,
 				4AF2946F1DA5869F00A6D3D5 /* FancyView.swift */,
 				4AF294741DA5910600A6D3D5 /* RoundButton.swift */,
 				4AF294761DA5929100A6D3D5 /* FancyField.swift */,
+				4AF2947D1DA705AE00A6D3D5 /* FancyViewRound.swift */,
+				4AF2947F1DA812ED00A6D3D5 /* FancyTextView.swift */,
+				4AF294831DAAEB7700A6D3D5 /* FancyImage.swift */,
+				4A2595AE1DAD70AC00211735 /* PostCell.swift */,
+				4AA394EF1DB1BFFF0020CE97 /* ShadowView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -192,6 +215,7 @@
 			children = (
 				4AF2943E1DA47AB200A6D3D5 /* SignInVC.swift */,
 				4AF2947B1DA6D61A00A6D3D5 /* FeedVC.swift */,
+				4AF294811DA8169400A6D3D5 /* PostVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -237,7 +261,7 @@
 			);
 			name = SocialMediaPlatform;
 			productName = SocialMediaPlatform;
-			productReference = 4AF294391DA47AB200A6D3D5 /* SocialMediaPlatform.app */;
+			productReference = 4AF294391DA47AB200A6D3D5 /* SoPho.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4AF2944C1DA47AB200A6D3D5 /* SocialMediaPlatformTests */ = {
@@ -345,6 +369,7 @@
 			files = (
 				4AF294471DA47AB200A6D3D5 /* LaunchScreen.storyboard in Resources */,
 				4AF294441DA47AB200A6D3D5 /* Assets.xcassets in Resources */,
+				4A2595F11DB1544B00211735 /* DropDown.xib in Resources */,
 				4AF2946B1DA47AE300A6D3D5 /* GoogleService-Info.plist in Resources */,
 				4AF294421DA47AB200A6D3D5 /* Main.storyboard in Resources */,
 			);
@@ -495,12 +520,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AF294771DA5929100A6D3D5 /* FancyField.swift in Sources */,
+				4A2595F31DB154DD00211735 /* DropDownView.swift in Sources */,
+				4AF294841DAAEB7700A6D3D5 /* FancyImage.swift in Sources */,
 				4AF2947C1DA6D61A00A6D3D5 /* FeedVC.swift in Sources */,
 				4AF2943F1DA47AB200A6D3D5 /* SignInVC.swift in Sources */,
+				4AF294801DA812ED00A6D3D5 /* FancyTextView.swift in Sources */,
+				4AA394F01DB1BFFF0020CE97 /* ShadowView.swift in Sources */,
+				4AF294821DA8169400A6D3D5 /* PostVC.swift in Sources */,
+				4AF2947E1DA705AE00A6D3D5 /* FancyViewRound.swift in Sources */,
 				4AF294751DA5910600A6D3D5 /* RoundButton.swift in Sources */,
 				4AF2943D1DA47AB200A6D3D5 /* AppDelegate.swift in Sources */,
 				4AF294701DA5869F00A6D3D5 /* FancyView.swift in Sources */,
 				4AF294731DA5873700A6D3D5 /* Constants.swift in Sources */,
+				4A2595AF1DAD70AC00211735 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,7 +694,7 @@
 				INFOPLIST_FILE = SocialMediaPlatform/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AM.SocialMediaPlatform;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SoPho;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -681,7 +713,7 @@
 				INFOPLIST_FILE = SocialMediaPlatform/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AM.SocialMediaPlatform;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SoPho;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

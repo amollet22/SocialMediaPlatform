@@ -4,6 +4,14 @@
       "idiom" : "universal",
       "filename" : "social-media-article-image-820x300.jpg",
       "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {

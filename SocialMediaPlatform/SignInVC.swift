@@ -18,10 +18,17 @@ class SignInVC: UIViewController {
     
     @IBOutlet weak var passwordField: UITextField!
     
+    @IBOutlet weak var loginView: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            UIView.animate(withDuration: 1) {
+                self.loginView.layer.opacity = 1
+            }
         }
+    }
     
     //CODE TO AUTO LOGIN WITH KEYCHAINWRAPPER
     
