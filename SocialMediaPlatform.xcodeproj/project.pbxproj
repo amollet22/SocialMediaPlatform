@@ -57,6 +57,7 @@
 		4A2595AE1DAD70AC00211735 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		4A2595F01DB1544B00211735 /* DropDown.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDown.xib; sourceTree = "<group>"; };
 		4A2595F21DB154DD00211735 /* DropDownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
+		4A8148961DB5741F00944550 /* SoPho.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoPho.entitlements; sourceTree = "<group>"; };
 		4AA394EF1DB1BFFF0020CE97 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		4AF294391DA47AB200A6D3D5 /* SoPho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoPho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF2943C1DA47AB200A6D3D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -153,6 +154,7 @@
 		4AF2943B1DA47AB200A6D3D5 /* SocialMediaPlatform */ = {
 			isa = PBXGroup;
 			children = (
+				4A8148961DB5741F00944550 /* SoPho.entitlements */,
 				4AF2947A1DA5CB1900A6D3D5 /* SocialMediaPlatform.entitlements */,
 				4AF294711DA5871800A6D3D5 /* Utilities */,
 				4AF2946E1DA47E6A00A6D3D5 /* Controller */,
@@ -605,6 +607,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -655,6 +658,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -684,8 +688,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2352D445CD0638A84AC50329 /* Pods-SocialMediaPlatform.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = SocialMediaPlatform/SocialMediaPlatform.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SocialMediaPlatform/SoPho.entitlements;
 				DEVELOPMENT_TEAM = E58YP27X57;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -703,8 +708,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5977CF2976475DD798845CF4 /* Pods-SocialMediaPlatform.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = SocialMediaPlatform/SocialMediaPlatform.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SocialMediaPlatform/SoPho.entitlements;
 				DEVELOPMENT_TEAM = E58YP27X57;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -730,7 +736,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AM.SocialMediaPlatformTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialMediaPlatform.app/SocialMediaPlatform";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoPho.app/SoPho";
 			};
 			name = Debug;
 		};
@@ -746,7 +752,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AM.SocialMediaPlatformTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialMediaPlatform.app/SocialMediaPlatform";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoPho.app/SoPho";
 			};
 			name = Release;
 		};

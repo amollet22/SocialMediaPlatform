@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4AF294381DA47AB200A6D3D5"
-               BuildableName = "SocialMediaPlatform.app"
+               BuildableName = "SoPho.app"
                BlueprintName = "SocialMediaPlatform"
                ReferencedContainer = "container:SocialMediaPlatform.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4AF294381DA47AB200A6D3D5"
-            BuildableName = "SocialMediaPlatform.app"
+            BuildableName = "SoPho.app"
             BlueprintName = "SocialMediaPlatform"
             ReferencedContainer = "container:SocialMediaPlatform.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4AF294381DA47AB200A6D3D5"
-            BuildableName = "SocialMediaPlatform.app"
+            BuildableName = "SoPho.app"
             BlueprintName = "SocialMediaPlatform"
             ReferencedContainer = "container:SocialMediaPlatform.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4AF294381DA47AB200A6D3D5"
-            BuildableName = "SocialMediaPlatform.app"
+            BuildableName = "SoPho.app"
             BlueprintName = "SocialMediaPlatform"
             ReferencedContainer = "container:SocialMediaPlatform.xcodeproj">
          </BuildableReference>
